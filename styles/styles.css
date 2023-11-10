@@ -3,6 +3,9 @@
     padding-top: 0;
     font-size: 10px;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
 }
 .li__item .active{
     color: black;
@@ -32,6 +35,7 @@
     text-decoration: none;
     font-size: 1.7rem;
     color: rgb(101, 101, 101);
+    font-weight: 800;
 
     
 }
@@ -79,3 +83,87 @@
     font-size: 7rem;
     text-decoration: underline;
 }
+
+/* about page starts here */
+.about__title{
+    font-size: 2.5rem;
+    margin-left: 8rem;
+}
+.about__content__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    width: 90%;
+    margin: 0 auto;
+    padding: 2rem;
+    line-height: 1.6rem;
+    background-color: rgb(153, 153, 153);
+    border-radius: 0.5rem;
+    margin-top: 0,8rem; 
+    gap: 3rem;
+
+}
+.about__img__container{
+    flex-basis: 40%;
+}
+.about__img__container img{
+    width: 100%;
+}
+.about__content{
+    flex-basis: 50%;
+}
+.about__content__container__p{
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 600;
+
+
+}
+
+/* about page ends here */
+/* deportes comienza aqui */
+.deportes__container{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1rem;
+    margin: 0 auto;
+}
+.deportes__container img{
+    max-width: 100%;
+    
+    
+}
+.deporte__titulo{
+    font-size: 2rem;
+    opacity: 0.5;
+}
+.desportes__contenido{
+    font-size: 1.6rem;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+.deporte__container{
+    border: 1px solid rgb(149, 149, 149) ;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(214, 214, 214);
+    box-shadow: 3px 4px 10px black;
+}
+
+
+/* deportes termina aqui */
+/* gallery stars here */
+.gallery__container{
+    max-width: 180rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1rem;
+}
+.img img{
+    width: 100%;
+}
+/* gallery ends here */
